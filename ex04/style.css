@@ -1,0 +1,81 @@
+/* Chrome, Edge, Safari */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+body{
+ background: rgb(174, 174, 255);
+ font: normal 15pt Arial;
+}
+header{
+ color: white;
+ text-align: center;
+ margin: 0.8em;
+}
+
+header h1, header span {
+    margin: 0;
+}
+
+header span {
+    color: rgb(250, 250, 0);
+}
+
+section{
+ background: white;
+ border-radius: 10px;
+ padding: 15px;
+ width: 500px;
+ margin: auto;
+ text-align: center;
+ box-shadow: 5px 5px 10px rgba(99, 99, 99, 0.283);
+}
+
+.sec01 {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    
+}
+
+.sec01 input {
+    margin-left: 0.8em;
+    width: 200px;
+    height: 2em;
+    text-align: center;
+    font: normal 15pt Arial;
+}
+
+
+.sec02 ul {
+    list-style: none;
+}
+
+.sec02 ul li {
+    margin: 0.6em;
+}
+
+.sec03{
+    display: none;
+    width: 250px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+
+footer{
+ color: white;
+ text-align: center;
+ font-style: italic;
+}

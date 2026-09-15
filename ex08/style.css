@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+ body h1 {
+  margin: 0.1em;
+}
+
+/* .checkbox {
+  display: block;
+  background-color: red;
+} */
+
+body div input{
+  margin: 1em 0 ;
+  /* display: block; */
+} 
+
+/* .checkbox {
+  width: 50%;
+} */
+
+.checkbox label {
+  display: block;
+}
+
+.checkbox fieldset {
+  width: 50%;
+}
+
+.sec02 p {
+  margin: 1em;
+}
